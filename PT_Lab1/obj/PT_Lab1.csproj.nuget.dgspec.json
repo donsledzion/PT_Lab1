@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj": {}
+    "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj": {
+    "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
+        "projectUniqueName": "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
         "projectName": "PT_Lab1",
-        "projectPath": "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
+        "projectPath": "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
         "packagesPath": "C:\\Users\\choja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\obj\\",
+        "outputPath": "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\choja\\AppData\\Roaming\\NuGet\\NuGet.Config",
