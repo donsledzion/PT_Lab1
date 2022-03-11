@@ -28,7 +28,7 @@ namespace PT_Lab1
             foreach(string file in Directory.GetFiles(path))
             {
                 FileInfo fileInfo = new FileInfo(file);
-                Console.WriteLine(Indentation(file) + Path.GetFileName(file) + " | " + fileInfo.FormattedAttributes());
+                Console.WriteLine(Indentation(file) + Path.GetFileName(file) + "\t|| " + fileInfo.FormattedAttributes());
             }
         }
 
@@ -39,22 +39,35 @@ namespace PT_Lab1
                 prefix += "    ";
             return prefix;
         }
-        
     }
-
 }
 namespace ExtensionMethods
+{
+    public static class CustomExtenstions
     {
-        public static class CustomExtenstions
+        public static string FormattedAttributes(this FileSystemInfo info)
         {
-            public static string FormattedAttributes(this FileSystemInfo info)
-            {
-                return info.Attributes.ToString();
-            }
+        FileInfo fi = info as FileInfo;
+        string fileInfo = "Modified: " +fi.LastWriteTime.ToString() + " | Size: " + BytesFormat((int)fi.Length);
+                
 
-            public static string ContentCount(this DirectoryInfo info)
-            {
-                return info.GetFiles().Length.ToString();
-            }
+            return fileInfo;
+        }
+
+        public static string ContentCount(this DirectoryInfo info)
+        {
+            return info.GetFiles().Length.ToString();
+        }
+        static string BytesFormat(int bytes)
+        {
+            string result = bytes.ToString();
+
+            if (result.Length > 12) return ((float)bytes / 1000000000).ToString("0.00") + " TB";
+            else if (result.Length > 9) return ((float)bytes / 1000000000).ToString("0.00") + " GB";
+            else if (result.Length > 6) return ((float)bytes/1000000).ToString("0.00") + " MB";
+            else if (result.Length > 3) return ((float)bytes / 1000).ToString("0.00") + " KB";
+
+            return result + "B";
         }
     }
+}
