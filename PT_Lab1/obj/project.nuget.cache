@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PApHivvN5Fud3+i47j+w7Sse90QdB8aeEMMSddTkZkk9jXQ0WaN9Gk2wEnxUc9bFnQKKnb9Zk7q0iBZ0fqBSjA==",
+  "dgSpecHash": "4O1i90cw5u+gQwSY4ILGhK+5pwK/ppy8Au02iXitV+8ywGZ3dS5ZZPgUDJZ/UF1PF/18s/AO2t+8uKeOHb2SaQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
+  "projectFilePath": "C:\\Users\\choja\\source\\repos\\PT_Lab1\\PT_Lab1\\PT_Lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\choja\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
